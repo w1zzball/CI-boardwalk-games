@@ -6,8 +6,8 @@
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /*dark brown*/
     --secondary-color: #aa9581; /*cream*/
-    --highlight: #416a8e; /*blue*/
-    --light-highlight: #7a9fc2;  /*light blue*/
+    --highlight-color: #416a8e; /*blue*/
+    --highlight-color-light: #7a9fc2;  /*light blue*/
 }
 body{
     font-family: var(--primary-font);
@@ -21,5 +21,15 @@ h3{
 }
 
 .sub-heading-color{
-    color: var(--highlight);
+    color: var(--highlight-color);
+}
+
+/* grid visualisations for testing */   
+.container,
+.row {
+    border:2px solid black;
+}
+.col-12{
+    border: 2px solid white;
+    background-color: lightgray;
 }
