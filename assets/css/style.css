@@ -24,6 +24,14 @@ h3{
     color: var(--highlight-color);
 }
 
+/* navbar */
+#navbar{
+    background-color: var(--primary-color);
+}
+#navbar .logo{
+    width: 30px;
+}
+
 /* grid visualisations for testing */   
 /* .container,
 .row {
@@ -33,4 +41,3 @@ h3{
     border: 2px solid white;
     background-color: lightgray;
 } */
- 
