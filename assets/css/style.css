@@ -92,6 +92,19 @@ h2{
     border: none;
 }
 
+/* events */
+.offer{
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#events td,
+#events th{
+    font-size: 0.7rem;
+}
+
 /* contact */
 #contact {
     background-color: var(--primary-color);
@@ -130,6 +143,9 @@ h2{
     /*make all service cards same height for consistency*/
     #services .card-body{
         min-height: 191px;
+    }
+    #events table *{
+        font-size: 1rem;
     }
 
 }
