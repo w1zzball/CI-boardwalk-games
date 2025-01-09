@@ -69,6 +69,37 @@ h2{
     border: none;
 }
 
+/* contact */
+#contact {
+    background-color: var(--primary-color);
+    color:white;
+    padding-bottom: 3rem;
+}
+#contact h2{
+    color: white;
+}
+#contact .sub-heading-color{
+    color: var(--highlight-color-light);
+}
+#contact i{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+#contact .social-links i{
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+#contact .social-links i:hover{
+    color: var(--secondary-color);
+
+}
+
+#contact .table-dark *{
+    background-color: transparent;
+}
+
 
 /* media queries */
 /* medium devices (tablets) */
@@ -86,6 +117,8 @@ h2{
         min-height: auto;
     }
 }
+
+
 
 /* Xlarge devices (desktop 1200px and up) */
 @media screen and (min-width:1200px) {
